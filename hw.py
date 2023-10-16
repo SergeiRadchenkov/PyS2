@@ -12,17 +12,21 @@
 #     print(one)
 
 
-s = 12
-p = 27
+# s = 12
+# p = 27
+# for i in range(p):
+#     number = 1
+#     if i == 0:
+#         continue
+#     while number < s + p:
+#         if number * i == p and number + i == s:
+#             print(i, number)
+#         number += 1
+
+n = 1024
 number = 1
-for i in range(p):
-    number = 1
-    if i == 0:
-        continue
-    if number * i == p:
-        elif number + i == s:
-        number += 1
-        if number == p:
-            break
-    print(i, number)
-    print(number, i)
+print(number)
+while number < n:
+    number *= 2
+    if number <= n:
+        print(number)
